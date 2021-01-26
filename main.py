@@ -18,15 +18,15 @@ counter = 0
 
 # firebase config
 
-firebaseConfig = {
-    "apiKey" : "AIzaSyAiFpbZFMBth6JgqXsv2KmI1TtkllH5fvY",
-    "authDomain" : "testpyqt5-61a75.firebaseapp.com",
-    "projectId" : "testpyqt5-61a75",
+firebaseConfig = { # Pute your config from firebase website firebase.com ;)
+    "apiKey" : "",
+    "authDomain" : "",
+    "projectId" : "",
     "databaseURL":"",
-    "storageBucket": "testpyqt5-61a75.appspot.com",
-    "messagingSenderId": "94674292613",
-    "appId": "1:94674292613:web:c1117bf5bb5a8be64dbeec",
-    "measurementId" : "G-BWZVCH35LY"
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId" : ""
     }
 
 firebase = pyrebase.initialize_app(firebaseConfig)
